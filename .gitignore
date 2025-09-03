@@ -1,0 +1,33 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor junk
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.idea/
+.vscode/
+
+# Node / build tooling (if ever used in this repo)
+node_modules/
+dist/
+build/
+*.map
+
+# Composer / PHP tooling
+vendor/
+composer.lock
+
+# WordPress plugin packaging
+*.zip
+
+# Local configs (DO NOT COMMIT SECRETS)
+glx-secure-contact/config.local.php
+
+# Environment files
+.env
+.env.*
