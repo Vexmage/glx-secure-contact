@@ -6,7 +6,7 @@ Built to avoid bloated form plugins while still providing essential protections 
 
 ---
 
-## ✨ Features
+## Features
 
 * Shortcode: `[glx_secure_contact]`
 * AJAX submission (no page reloads)
@@ -18,7 +18,7 @@ Built to avoid bloated form plugins while still providing essential protections 
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 This plugin follows a simple separation of concerns:
 
@@ -39,7 +39,7 @@ This keeps WordPress as a lightweight integration layer while allowing modern fr
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. Clone or download into your plugins directory:
 
@@ -58,7 +58,7 @@ wp-content/plugins/glx-secure-contact/
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Secrets (like email and reCAPTCHA keys) are not committed to Git.
 
@@ -77,11 +77,11 @@ define('GLX_RECAPTCHA_SITE_KEY', 'your-site-key-here');
 define('GLX_RECAPTCHA_SECRET', 'your-secret-key-here');
 ```
 
-⚠️ `config.local.php` is ignored by Git (see `.gitignore`)
+ `config.local.php` is ignored by Git (see `.gitignore`)
 
 ---
 
-## 🔐 reCAPTCHA Setup
+## reCAPTCHA Setup
 
 1. Go to the Google reCAPTCHA Admin Console
 2. Register your domain
@@ -91,7 +91,7 @@ define('GLX_RECAPTCHA_SECRET', 'your-secret-key-here');
 
 ---
 
-## 🎨 Styling
+## Styling
 
 The plugin includes minimal default styles.
 
@@ -99,7 +99,7 @@ Override in your theme’s CSS as needed.
 
 ---
 
-## 🧪 Development
+## Development
 
 * PHP 7.4+
 * WordPress 5.8+
@@ -107,7 +107,7 @@ Override in your theme’s CSS as needed.
 
 ---
 
-## 📦 Packaging
+## Packaging
 
 Create a zip for upload:
 
@@ -117,19 +117,19 @@ zip -r glx-secure-contact.zip glx-secure-contact/ -x "*.git*" -x "*/node_modules
 
 ---
 
-## 🧠 Notes
+## Notes
 
 This plugin is intentionally minimal and avoids heavy dependencies.
 It can be extended to integrate with external services (APIs, databases, or other backends) while keeping the WordPress layer lightweight.
 
 ---
 
-## 📄 License
+## License
 
 [MIT License](https://opensource.org/license/mit)
 
 ---
 
-## 👤 Credits
+## Credits
 
 Created by [Great Lynx Designs](https://greatlynxdesigns.com/)
