@@ -120,7 +120,7 @@ zip -r glx-secure-contact.zip glx-secure-contact/ -x "*.git*" -x "*/node_modules
 ## Notes
 
 This plugin is intentionally minimal and avoids heavy dependencies.
-It can be extended to integrate with external services (APIs, databases, or other backends) while keeping the WordPress layer lightweight.
+It can theoretically be extended to integrate with external services (APIs, databases, or other backends) while keeping the WordPress layer lightweight.
 
 ---
 
